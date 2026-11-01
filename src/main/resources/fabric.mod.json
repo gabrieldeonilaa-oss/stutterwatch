@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stutterwatch",
+  "version": "0.1.0",
+  "name": "StutterWatch",
+  "description": "Logs every stutter and tells you whether it was a GC pause or something else.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.stutterwatch.StutterWatch"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
